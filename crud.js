@@ -1,7 +1,10 @@
 const http = require("http");
 const fs = require("fs");
 const { parse } = require('querystring');
-const port = 9500;
+<<<<<<< HEAD
+const port = 9506;
+=======
+ >>>>>>> a7ba844397a4c82857febc19a973c897616bfd58
 
 function hander(req, res) {
   console.log(req.url);
